@@ -1,25 +1,33 @@
 .profile-container{
+    margin-top:200px;
     display: flex;
+    align-content: center;
 
 }
 
 .photo{
     margin:0px 10px 0px 10px;
     border-radius: 30px;
-    width:14vh;
-    height: 18vh;
+    width:250px;
+    height: 300px;
     
 }
 .profile{
 
-&--left{
-    margin:10px 0px 10px 0;
-    display: flex;
-    justify-content: center;
+// &--left{
+//     margin:10px 0px 10px 0;
+//     display: flex;
+//     justify-content: center;
 
-    width:28vh;
+//     width:28vh;
+// }
+
+&--welcome{
+    margin: 5px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #00FF66;
 }
-
 &--right{
     margin:10px 10px 10px 5px;
     justify-content: center;
@@ -29,29 +37,18 @@
 &--name{
     margin: 5px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 60px;
     
-}
-&--role{
-    font-weight: 400;
-    font-size: 15px;  
-    margin: 5px; 
-}
-&--phone, &--mail, &--location {
-    font-weight: 400;
-    font-size: 14px; 
-    color: darkgray;
-    margin: 5px;
 }
 
 &--description{
 
     font-weight: 400;
-    font-size: 16px;  
+    font-size: 24px;  
     color: lightgray;
     margin: 5px;
     word-spacing: 0.5px;
     text-align: justify;
+    color: #b4b2b2af;
 }
 }
-

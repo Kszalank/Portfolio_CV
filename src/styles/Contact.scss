@@ -1,0 +1,29 @@
+.contact{
+    &--container{
+        margin-top:200px;
+ }
+    &--heading{
+        font-weight: 600;
+        font-size: 50px; 
+        padding-top:15px;
+        margin:10px 0 0 15px; 
+    }
+
+    &--description{
+    font-weight: 400;
+    font-size: 20px; 
+    padding-top:15px;
+    margin:10px 0 20px 15px; 
+}
+    &--phone, &--mail, &--location {
+        font-weight: 400;
+        font-size: 14px; 
+        color: darkgray;
+        margin:5px 0 0 15px; 
+    }
+
+    &--phone-value, &--mail-value, &--location-value {
+        color: #00FF66;
+    }
+    
+}

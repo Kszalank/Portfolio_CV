@@ -4,11 +4,16 @@
 
     &--heading{
         font-weight: 600;
+        font-size: 50px; 
+        padding-top:15px;
+        margin:0px 0 0 15px; 
+    }
+    &--description{
+        font-weight: 400;
         font-size: 20px; 
         padding-top:15px;
         margin:10px 0 0 15px; 
     }
-    
     &--knowledge{
         margin:15px;
         padding-bottom: 8px;

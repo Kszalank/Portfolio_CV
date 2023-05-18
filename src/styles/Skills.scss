@@ -1,23 +1,30 @@
+.skills-container{
+    margin-top:200px;
+}
 .skills{
-
+  
 
 &--heading{
     font-weight: 600;
+    font-size: 50px; 
+    padding-top:15px;
+    margin:10px 0 0 15px; 
+}
+&--description{
+    font-weight: 400;
     font-size: 20px; 
     padding-top:15px;
     margin:10px 0 0 15px; 
 }
-
 &--knowledge{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    border-top: 1px solid darkgray;
     padding-top: 10px;
     margin:15px;
     padding-bottom: 10px;
     font-weight: 400;
-    font-size: 16px;  
+    font-size: 18px;  
     }
 
     &--knowledge-element{
@@ -25,8 +32,9 @@
         display: flex;
         margin:5px;
         justify-content: center;
-        width:100px;
+        width:150px;
         border-radius: 30px;
         background-color: rgb(21, 33, 59);
+        background-color: #00ff66a1;;
     }
 }

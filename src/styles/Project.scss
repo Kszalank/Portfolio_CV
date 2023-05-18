@@ -5,14 +5,14 @@
         margin:15px;
         padding-bottom: 5px;
     }
-
     &--name{
         font-weight: 600;
-        font-size: 17px; 
+        font-size: 20px; 
     }
     &--description, &--technologies{
         font-weight: 400;
-    font-size: 16px;  
+        font-size: 17px; 
+
         text-align: justify;    
     }
 
@@ -28,7 +28,10 @@
         height: 30px;
         width: 30px;
     }
+    &--link:hover{
+        filter: brightness(0) saturate(100%) invert(75%) sepia(61%) saturate(3273%) hue-rotate(90deg) brightness(106%) contrast(107%);
 
+    }
     &--links{
         display: flex;
     }
