@@ -1,0 +1,38 @@
+.project{
+
+    &--container{
+        border-top: 1px solid darkgray;
+        margin:15px;
+        padding-bottom: 5px;
+    }
+
+    &--name{
+        font-weight: 600;
+        font-size: 17px; 
+    }
+    &--description, &--technologies{
+        font-weight: 400;
+    font-size: 16px;  
+        text-align: justify;    
+    }
+
+    &--title-and-links{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    &--link{
+        display: flex;
+        flex-direction: row;
+        margin:5px;
+        height: 30px;
+        width: 30px;
+    }
+
+    &--links{
+        display: flex;
+    }
+}
+
+.globe{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7486%) hue-rotate(308deg) brightness(101%) contrast(105%);}
