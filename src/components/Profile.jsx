@@ -6,7 +6,7 @@ function Profile() {
   return (
     <div className="container profile-container">
       <div className="profile--left">
-        <img src={selfie} alt="horse" className="photo" />
+        <img src={selfie} alt="horse" className="profile--photo" />
         <div />
       </div>
       <div className="profile--right">

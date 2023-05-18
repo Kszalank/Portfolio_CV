@@ -6,9 +6,7 @@ function Skills() {
   return (
     <div className="container skills-container">
       <h3 className="skills--heading">Skills</h3>
-      <div className="skills--description">
-        Below you can technologies I use the most.
-      </div>
+      <div className="skills--description">Technologies I use the most.</div>
       <div className="skills--knowledge">
         <Skill text="HTML" />
         <Skill text="CSS" />
