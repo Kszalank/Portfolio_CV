@@ -10,18 +10,24 @@
   
 
 &--heading{
+    text-align: center;
+    justify-content: center;
     font-weight: 600;
     font-size: 50px; 
     padding-top:15px;
     margin:10px 0 0 15px; 
 }
 &--description{
+    text-align: center;
+    justify-content: center;
     font-weight: 400;
     font-size: 20px; 
     padding-top:15px;
     margin:10px 0 0 15px; 
 }
 &--knowledge{
+    text-align: center;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
