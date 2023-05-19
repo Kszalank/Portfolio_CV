@@ -82,6 +82,13 @@ width:50vh;
 height: 50vh;
     }
  
+    @media(max-width:800px){
+        &--image{
+            width:30vh;
+            height: 30vh;
+        } 
+    }
+    
 }
 
 .globe{
