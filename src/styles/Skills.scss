@@ -1,9 +1,11 @@
 .skills-container{
-    margin-top:200px;
+    margin-top: 15%;
 }
-@media(max-width:800px){
+@media(max-width:900px){
     .skills-container{
         margin-top:10px;
+        width:90%;
+        left:5%;
     } 
 }
 .skills{

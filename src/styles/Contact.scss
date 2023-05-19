@@ -1,13 +1,15 @@
 .contact{
     &--container{
-        margin-top:200px;
+        margin-top: 15%;
         position: relative;
         width:70%;
         left:15%;
  }
- @media(max-width:800px){
+ @media(max-width:900px){
     &--container{
         margin-top:10px;
+        width:90%;
+        left:5%;
     } 
 }
 
@@ -22,8 +24,8 @@
 
     &--description{
         text-align: center;
-    font-weight: 400;
-    font-size: 22px; 
+        font-weight: 400;
+        font-size: 20px; 
     padding-top:15px;
     margin:10px 0 20px 15px; 
 }
