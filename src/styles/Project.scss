@@ -1,40 +1,87 @@
 .project{
 
     &--container{
-        border-top: 1px solid #00FF66;
-        margin:15px;
-        padding-bottom: 5px;
+        position: relative;
+        left:10%;
+        width:80%;
     }
-    &--name{
+    &--link-name{
+        margin-top:2px;
+        margin-bottom:0px;
+        padding-bottom:20px;
+        padding-top:20px;
+        // justify-content: center;
+        text-align: center;
+        color:white;
+        border-top: 1px solid #00FF66;
         font-weight: 600;
         font-size: 20px; 
     }
-    &--description, &--technologies{
-        font-weight: 400;
-        font-size: 17px; 
 
-        text-align: justify;    
+    &--arrow{
+        text-decoration:none;
+        color:#00FF66;
+        font-weight: 600;
+        font-size: 40px; 
+    }
+    &--name{
+        margin:0;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px; 
+    }
+
+    &--description{
+        font-weight: 400;
+        font-size: 23px; 
+        text-align: justify; 
+    }
+
+
+    &--technologies{
+        font-weight: 400;
+        font-size: 20px; 
+   
     }
 
     &--title-and-links{
+        padding-bottom:20px;
+        margin:50px 0 20px 0;
         align-items: center;
         display: flex;
         justify-content: space-between;
+        border-bottom: 1px solid #00FF66;
     }
     &--link{
         display: flex;
         flex-direction: row;
+        text-decoration:none;
+        color:white;
         margin:5px;
-        height: 30px;
-        width: 30px;
+        height: 35px;
+        width: 35px;
     }
-    &--link:hover{
+    &--link:hover, &--link-name:hover{
         filter: brightness(0) saturate(100%) invert(75%) sepia(61%) saturate(3273%) hue-rotate(90deg) brightness(106%) contrast(107%);
 
     }
+
+
     &--links{
+        text-decoration:none;
         display: flex;
     }
+
+    &--images{
+        text-align: center;
+    }
+    &--image{
+        margin:5px;
+width:50vh;
+height: 50vh;
+    }
+ 
 }
 
 .globe{
