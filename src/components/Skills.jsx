@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/Skills.scss";
+import "../styles/Base.scss";
 import Skill from "./Skill";
 
 function Skills() {
   return (
-    <div className="container skills-container">
+    <div className="base skills-container">
       <h3 className="skills--heading">Skills</h3>
       <div className="skills--description">Technologies I use the most.</div>
       <div className="skills--knowledge">

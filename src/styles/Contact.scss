@@ -5,7 +5,11 @@
         width:70%;
         left:15%;
  }
-
+ @media(max-width:800px){
+    &--container{
+        margin-top:10px;
+    } 
+}
 
     &--heading{
         justify-content: center;

@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/Projects.scss";
+import "../styles/Base.scss";
 import Project from "./Project";
 
 function Projects() {
   return (
-    <div className="container projects-container">
+    <div className="base projects--container">
       <h3 className="projects--heading">Projects</h3>
       <div className="projects--description">
         Below you can find my projects and technologies used to create them.

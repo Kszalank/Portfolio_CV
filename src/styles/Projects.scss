@@ -1,7 +1,13 @@
 
 .projects{
 
+    @media(max-width:800px){
+        &--container{
+            margin-top:10px;
+        }
+    }
 
+ &--container
     &--heading{
         text-align: center;
         justify-content: center;

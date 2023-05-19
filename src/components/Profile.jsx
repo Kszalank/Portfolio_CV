@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/Profile.scss";
+import "../styles/Base.scss";
 import selfie from "../assets/selfie.jpg";
 
 function Profile() {
   return (
-    <div className="container profile-container">
+    <div className="base profile-container">
       <div className="profile--left">
         <img src={selfie} alt="horse" className="profile--photo" />
         <div />
